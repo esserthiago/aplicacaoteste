@@ -22,7 +22,7 @@ public class ProdutoController {
 	public @ResponseBody Produto novoProduto(@Valid Produto produto){
 		
 		produtoRepository.save(produto);
-		
+		//teste
 		return produto;
 	}
 }
